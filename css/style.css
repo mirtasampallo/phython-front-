@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(251, 225, 215);
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(214, 102, 62, 0.857);
+    height: 50px;
+    padding-bottom: 2px;
+}
+
+header nav ul li{
+    list-style: none;
+    float: right;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover{
+    background-color: brown;
+    color: black;
+}
+
+.logo{
+    color: white;
+
+}
+
+main{
+    width: 100%;
+}
+
+
+
+main section{
+    padding: 20px;
+}
+
+ .tittle{
+    color: brown;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tittle:hover{
+    background-color: brown;
+    color: white;
+    padding: auto;
+}
+
+/* .containerImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .button{
+    color: white;
+    background-color: brown;
+    align-items: center;
+    transition: 1s;
+    border: none;
+    border-radius: 16px;
+} */
+
+
+footer{
+        background-color: rgba(214, 102, 62, 0.857);
+        height: 100px;
+        padding-bottom: 2px;
+    }
+
+    footer p{
+        text-align: center;
+        color: white;
+    }
+
+    footer p:hover{
+        background-color: brown;
+        color: black;  
+    }
+
+    footer nav{
+        display: flexbox;
+        text-align: center;
+
+    }
+
+    footer nav a{
+        color: white;
+    }
+
+    
+    footer nav a:hover{
+        background-color: brown;
+        color: black; 
+    }
+
