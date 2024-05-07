@@ -64,7 +64,7 @@ header {
 .abrir-menu,
 .cerrar-menu {
     display: none;
-} 
+}
 
 
 main {
@@ -144,6 +144,8 @@ h3 {
     color: brown;
     text-align: center;
 }
+
+
 footer {
     display: flexbox;
     justify-content: space-around;
@@ -225,4 +227,33 @@ footer p:hover {
         opacity: 1;
         visibility: visible;
     }
+
+    .container-recipes {
+    display: flex;
+    flex-direction: column;
+    }
+
+    /* .cards {
+        flex-direction: column;
+    } */
+
+    .card {
+        margin-bottom: 2em;
+        width: auto;
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+
+
+    h3 {
+        color: brown;
+        text-align: center;
+        padding: 10px;
+    }
+
+    p{
+        width: auto;
+    }
+
 }
