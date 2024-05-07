@@ -4,35 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4f794e593f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/style.css">
     <title>What can I cook?</title>
     <link rel="shortcut icon" href="/img/cocinando.ico" type="image/x-ico" />
+    <link rel="stylesheet" href="./contact.css">
 </head>
 
 <body>
     <div class="container">
-    <header>
-        <div class="logo">Logo</div>
-        <nav>
-            <ul>
-                <li><a href="../index.html" target="_blank">Home</a></li>
-                <li><a href="../Pages/about.html" target="_blank">About</a></li>
-                <li><a>Contact</a></li>
-                <li><a href="../Pages/recipes.html" target="_blank">Recipes</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <h2 class="logo">Logo</h2>
+            <button id="abrir" class="abrir-menu"><img src="/img/strip_14265241.png" width="30px" height="30px"></button>
+            <nav id="nav" class="nav">
+                <button id="cerrar" class="cerrar-menu"><img src="../img/boton-x.png" width="30px" height="30px"></button>
+                <ul class="nav-list">
+                    <li><a>Contacto</a></li>
+                    <li><a href="../index.html" target="_blank">Home</a></li>
+                    <li><a href="../Pages/about.html" target="_blank">About</a></li>
+                    <li><a href="../Pages/recipes.html" target="_blank">Recipes</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-      
+        <main>
             <div class="tittle">
                 <h1>What can I cook today?</h1>
             </div>
-            <section class="container-contact">
+            <div class="container-contact">
                 <section>
                     <div class="tittle">
-                        <h1>COMPLETE SUS DATOS</h1>
+                        <h3>COMPLETE SUS DATOS</h3>
                     </div>
                     <div class="container-form">
                         <form action="show_data.html" target="_blank">
@@ -59,40 +59,46 @@
                             </label>
                             <br><br>
                             <br><br>
-                            <input type="checkbox" name="terminos" id="terminos" required>Acepto terminos y condiciones<br><br>
+                            <input type="checkbox" name="terminos" id="terminos" required>Acepto terminos y
+                            condiciones<br><br>
                             <input type="submit" value="Enviar Formularios">
                             <input type="reset" value="Borrar Campos">
                         </form><br><br>
                     </div>
                 </section>
-            <menu class="map">
-               <a href="https://www.google.com/maps/place/Blvd.+Hip%C3%B3lito+Yrigoyen+840,+Concepci%C3%B3n+del+Uruguay,+Entre+R%C3%ADos/@-32.4775587,-58.2386424,17z/data=!3m1!4b1!4m5!3m4!1s0x95afda55ee46bdc9:0x658b715f5752dacb!8m2!3d-32.4775633!4d-58.2360675?entry=ttu"></a>
+                <menu class="container-map">
+                    <a
+                        href="https://www.google.com/maps/place/Blvd.+Hip%C3%B3lito+Yrigoyen+840,+Concepci%C3%B3n+del+Uruguay,+Entre+R%C3%ADos/@-32.4775587,-58.2386424,17z/data=!3m1!4b1!4m5!3m4!1s0x95afda55ee46bdc9:0x658b715f5752dacb!8m2!3d-32.4775633!4d-58.2360675?entry=ttu"></a>
 
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.8178562506787!2d-58.23864242503577!3d-32.47756327379015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afda55ee46bdc9%3A0x658b715f5752dacb!2sBlvd.%20Hip%C3%B3lito%20Yrigoyen%20840%2C%20Concepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1711492915002!5m2!1ses-419!2sar"
-                    width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </menu>
-        </section>
-        <!-- <div>
-            <a href="https://wa.me/543442679076"><img src="/img/whatsapp-line.svg"
-                    style="width:50px;height: 50px;"></a>
-        </div>  -->
-    </main>
-    <footer>
-        <br>
-        <p> Derechos Reservados @Mirta2024</p>
-        </br>
-        <nav>
-            <a href="https://www.linkedin.com/in/mirta-sampallo-s/" target="_blank"><i
-                    class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/mirtasampallo" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.facebook.com/mirta.sampallo" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/mirta.sampallo/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-        </nav>
-    </footer>
-</div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.8178562506787!2d-58.23864242503577!3d-32.47756327379015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afda55ee46bdc9%3A0x658b715f5752dacb!2sBlvd.%20Hip%C3%B3lito%20Yrigoyen%20840%2C%20Concepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1711492915002!5m2!1ses-419!2sar"
+                        width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </menu>
+            </div>
+            <div>
+                <a href="https://wa.me/543442679076"><img src="/img/whatsapp-line.svg"
+                        style="width:50px;height: 50px;"></a>
+            </div>
+        </main>
+        <footer>
+            <br>
+            <p> Derechos Reservados @Mirta2024</p>
+            </br>
+            <nav class="nav-footer">
+                <a href="https://www.linkedin.com/in/mirta-sampallo-s/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mirtasampallo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/mirta.sampallo" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mirta.sampallo/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/4f794e593f.js" crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+
 </body>
 
 </html>

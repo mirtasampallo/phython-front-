@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What can I cook?</title>
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/img/cocinando.ico" type="image/x-ico" />
+    <link rel="stylesheet" href="./recipes.css">
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <div class="logo">Logo</div>
-            <nav>
-                <ul>
+       <header>
+            <h2 class="logo">Logo</h2>
+            <button id="abrir" class="abrir-menu"><img src="/img/strip_14265241.png" width="30px" height="30px"></button>
+            <nav id="nav" class="nav">
+                <button id="cerrar" class="cerrar-menu"><img src="/img/boton-x.png" width="30px" height="30px"></i></button>
+                <ul class="nav-list">
+                    <li><a>Recipes</a></li>
                     <li><a href="../index.html" target="_blank">Home</a></li>
                     <li><a href="../Pages/about.html" target="_blank">About</a></li>
                     <li><a href="../Pages/contact.html" target="_blank">Contact</a></li>
-                    <li><a>Recipes</a></li>
                 </ul>
             </nav>
         </header>
@@ -149,13 +151,12 @@
                         </label>
                     </div>
                 </section>
-            </div>
         </main>
         <footer>
             <br>
             <p> Derechos Reservados @Mirta2024</p>
             </br>
-            <nav>
+            <nav class="nav-footer">
                 <a href="https://www.linkedin.com/in/mirta-sampallo-s/" target="_blank"><i
                         class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/mirtasampallo" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -165,7 +166,9 @@
                         class="fa-brands fa-instagram"></i></a>
             </nav>
         </footer>
+        </div>
         <script src="https://kit.fontawesome.com/4f794e593f.js" crossorigin="anonymous"></script>
+        <script src="../index.js"></script>
 </body>
 
 </html>

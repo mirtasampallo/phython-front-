@@ -121,8 +121,63 @@ main section {
     box-shadow: gray
 }
 
-/* FOOTER */
 
+
+
+.container-contact {
+    display: block;
+} 
+
+.container-map {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.container-form {
+    background-color: #f5f2f2;
+    color: brown;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+input[ type="text"],
+input[ type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="reset"],
+input[type="submit"] {
+    color: brown;
+}
+
+input[type="checkbox"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    color: black;
+}
+
+.redsoc {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 
 footer {
     display: flexbox;
@@ -158,9 +213,6 @@ footer p:hover {
 .nav-footer a:hover {
     color: black;
 }
-
-
-/* FOOTER END */
 
 
 @media screen and (max-width: 550px) {

@@ -121,8 +121,21 @@ main section {
     box-shadow: gray
 }
 
-/* FOOTER */
+.about {
+    display: flex;
+    justify-content: space-between;
+}
 
+.container-text h3 {
+    margin-bottom: 15px;
+    color: brown;
+    text-align: center;
+}
+
+.container-text p {
+    color: brown;
+    padding: 50px;
+}
 
 footer {
     display: flexbox;
